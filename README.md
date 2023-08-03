@@ -1,16 +1,42 @@
-### Hi there 👋
+```php
+<?php
 
-<!--
-**DanteB918/DanteB918** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+namespace DanteBradshaw;
 
-Here are some ideas to get you started:
+class About extends Me
+{
+    public function getHobbies(): array
+    {
+        return [
+            'hobbies' => [
+                'Chess' => 'in my freetime',
+                'Gaming' => 'pretty rarely',
+                'Coding' => 'All the time.'         
+            ]
+        ];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function getDailyKnowledge(): array
+    {
+        //I may have missed some stuff but here's the gist:
+        return [ 
+            Php::class,
+            Python::class,
+            Javascript::class,
+            Laravel::class,
+            Reactjs::class,
+            Scss::class,
+            Less::class,
+            Docker::class,
+            Bash::class,
+            Ansible::class,
+            Aws::class,
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'To contribute to open source!';
+    }
+}
+```
