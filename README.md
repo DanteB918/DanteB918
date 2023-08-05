@@ -9,13 +9,12 @@ class About extends Me
     {
         return [
             'hobbies' => [
-                'Chess' => 'in my freetime',
+                'Chess' => 'in my free time',
                 'Gaming' => 'pretty rarely',
                 'Coding' => 'All the time.'         
             ]
         ];
     }
-
     public function getDailyKnowledge(): array
     {
         //I may have missed some stuff but here's the gist:
@@ -32,11 +31,6 @@ class About extends Me
             Ansible::class,
             Aws::class,
         ];
-    }
-
-    public function getFutureGoal(): string
-    {
-        return 'To contribute to open source!';
     }
 }
 ```
