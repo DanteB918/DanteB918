@@ -1,7 +1,6 @@
 <div align="center">
-<!-- <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&size=50&duration=4000&pause=300&color=A7A459&center=true&vCenter=true&multiline=true&random=false&width=1300&height=140&lines=Hi+there!;I'm+Dante%2C+nice+to+meet+you!" alt="Typing SVG" width="70%" />
- -->
-<img src="https://github.com/DanteB918/DanteB918/assets/100642899/2f7d42a1-a995-4237-b25c-87091d2ee285" height="250" />
+ 
+<img src="https://github.com/DanteB918/DanteB918/assets/100642899/044c60af-7b86-4b20-bc76-f10c5808583e" height="250" width="auto" />
 
 <br>
 
